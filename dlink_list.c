@@ -28,9 +28,9 @@ int main(){
   printf("The size = %d\n", size());
   Node * ele = getAt(5);
   printf("LinkedList[5] = %d\n", ele->data);
-  //insertAt(0, 4);
-  insertAt(2, 4);
-  //insertAt(5, 4);
+  insertAt(0, 4);
+  insertAt(2, 16);
+  insertAt(5, 12);
  
   printf("=======Showing elements using Head pointer===========\n");
   printAllNodesHead();
